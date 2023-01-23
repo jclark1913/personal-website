@@ -6,7 +6,7 @@ html {
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Tajawal', sans-serif;
     margin: auto;
 }
 
@@ -29,6 +29,7 @@ body {
     flex-direction: row;
     justify-content: center;
     margin: 0px 16px;
+    direction: rtl;
 }
 
 .header-wrapper {
@@ -52,9 +53,12 @@ body {
 
 .language-button {
     margin-left: 16px;
-    font-family: 'Tajawal', sans-serif;
-
 }
+
+#language-selector:hover {
+    text-decoration: none;
+}
+
 
 a {
     text-decoration: none;
@@ -62,10 +66,6 @@ a {
 }
 
 #logo-button:hover{
-    text-decoration: none;
-}
-
-#language-selector:hover {
     text-decoration: none;
 }
 
@@ -141,4 +141,10 @@ a:hover {
 #twitter-logo {
     height: 40px;
     width: 45px;
+}
+
+.contact-blurb {
+    direction: rtl;
+    text-align:right;
+
 }
