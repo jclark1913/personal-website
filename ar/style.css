@@ -38,7 +38,7 @@ body {
     flex: 1;
     margin: 0 50px;
     max-width: 1920px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .nav-button-container {
@@ -100,10 +100,11 @@ a:hover {
 
 .break {
     width: 100%;
+    text-align: center;
 }
 
 .description-main {
-    margin: 0;
+    margin: 0px;
 }
 
 .portrait {
@@ -121,6 +122,7 @@ a:hover {
 
 .bio {
     max-width: 800px;
+    font-size: 20px;
 
 }
 
@@ -146,5 +148,10 @@ a:hover {
 .contact-blurb {
     direction: rtl;
     text-align:right;
+    font-size: 20px;
+}
 
+.photo-main {
+    padding: 0px;
+    margin-bottom: -4px;
 }

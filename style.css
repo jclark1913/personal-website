@@ -37,7 +37,7 @@ body {
     flex: 1;
     margin: 0 50px;
     max-width: 1920px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .nav-button-container {
@@ -121,6 +121,7 @@ a:hover {
 
 .bio {
     max-width: 800px;
+    font-size: 20px;
 
 }
 
@@ -141,4 +142,8 @@ a:hover {
 #twitter-logo {
     height: 40px;
     width: 45px;
+}
+
+.contact-blurb {
+    font-size: 20px;
 }
